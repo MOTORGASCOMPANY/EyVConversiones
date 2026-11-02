@@ -13,7 +13,7 @@
                         <img src="{{ asset('images/LOGOFINAL.jpg') }}" alt="Logo" class="w-10 h-10 object-contain">
                     </div>
                     <div>
-                        <span class="font-extrabold text-xl tracking-tight text-white block leading-none">ARTURO <span class="text-sky-400">MOTORS</span></span>
+                        <span class="font-extrabold text-xl tracking-tight text-white block leading-none">Plataforma <span class="text-sky-400">Conversiones</span></span>
                         <span class="text-[10px] text-slate-400 tracking-widest font-semibold uppercase">Gestión Taller</span>
                     </div>
                 </a>
@@ -38,7 +38,7 @@
 
             <!-- Footer Badge -->
             <div class="relative z-10 text-xs text-slate-500 flex items-center justify-between pt-6 border-t border-slate-800/60">
-                <span>&copy; {{ date('Y') }} Arturo Motors</span>
+                <span>&copy; {{ date('Y') }} Plataforma de Conversiones</span>
                 <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Sistema Operativo</span>
             </div>
         </div>

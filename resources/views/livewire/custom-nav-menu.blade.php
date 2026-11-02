@@ -45,8 +45,8 @@ Change class "fixed" to "sticky" in "navbar" (l. 33) so the navbar doesn't hide 
         </button>
 
         <a href="{{ route('dashboard') }}" class="flex items-center gap-2 py-2">
-            <img src="{{ asset('images/LOGOFINAL.jpg') }}" class="h-9 w-auto rounded-lg object-contain" alt="Arturo Motors" />
-            <span class="hidden lg:inline text-white font-bold text-sm tracking-wide">ARTURO <span class="text-blue-200">MOTORS</span></span>
+            <img src="{{ asset('images/LOGOFINAL.jpg') }}" class="h-9 w-auto rounded-lg object-contain" alt="Plataforma de Conversiones" />
+            <span class="hidden lg:inline text-white font-bold text-sm tracking-wide">PLATAFORMA DE <span class="text-blue-200">CONVERSIONES</span></span>
         </a>
 
         <div class="hidden  md:flex  md:items-center">

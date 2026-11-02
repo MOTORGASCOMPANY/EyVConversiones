@@ -71,7 +71,10 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/', [LandingController::class, 'index'])->name('landing');
+//Route::get('/', [LandingController::class, 'index'])->name('landing');
+Route::get('/', function () {
+    return redirect()->to('/login');
+});
 
 RateLimiter::for('livewire', function (Request $request) {
     return Limit::perMinute(10)->by($request->ip());

@@ -13,7 +13,7 @@
                     @endif
                 </h1>
                 <p class="mt-1 text-slate-300 text-sm font-medium">
-                    Panel de control de Arturo Motors
+                    Panel de control de Gestión Automotriz
                 </p>
             </div>
 
